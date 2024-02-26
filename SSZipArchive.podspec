@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/ZipArchive/ZipArchive'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.authors      = { 'Sam Soffes' => 'sam@soff.es', 'Joshua Hudson' => nil, 'Antoine Cœur' => nil }
-  s.source       = { :git => 'https://github.com/ZipArchive/ZipArchive.git', :tag => "#{s.version}" }
+  s.source       = { :git => 'https://github.com/holla-world/ZipArchive.git', :tag => "#{s.version}" }
   s.ios.deployment_target = '12.0'
   s.source_files = 'SSZipArchive/*.{m,h}', 'SSZipArchive/include/*.{m,h}', 'SSZipArchive/minizip/*.{c,h}'
   s.resource_bundles = {'SSZipArchive' => ['Resources/Privacyinfo.xcprivacy']}
